@@ -1,0 +1,21 @@
+body {
+    background-image: url('../pic/home-sign.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.sign-box {
+    color:rgb(233, 240, 236);
+    background: rgb(3, 87, 87);
+    width: 400px;
+    height: 380px; 
+    position: relative;
+    top: 60px;
+    left: 420px ;
+    font-size: 18px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.bcumb{
+    color:rgb(7, 61, 7);
+}

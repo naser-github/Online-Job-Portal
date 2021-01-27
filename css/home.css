@@ -1,0 +1,80 @@
+.btn-outline-white{
+    color:#ffffff;
+    border-color:#ffffff;
+    background-color:black;
+}
+.btn-outline-white:hover{
+    color:#fff;
+    background-color:#0a7e13;
+    border-color:#f3f3f3
+}
+
+.card {
+  position: absolute;
+  left: 100px;
+  right: 100px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+}
+
+.card-img-overlay {
+  position:absolute;
+  top: 15px;
+  right: 30px;
+  bottom: 0;
+  left: 0;
+  padding: 1.25rem;
+}
+
+.img-overlay{
+  color: white;
+  font-size: 20px;
+  position: relative;;
+  left: 300px;
+}
+
+.img-overlay:hover{
+  color:crimson;
+}
+
+.active-1{
+  color:lightblue;
+}
+
+.card-home{
+  background-color: black;
+  color: white;
+}
+
+.catagory-home{
+  color:rgb(7, 61, 7);
+  font-family:Arial, Helvetica, sans-serif ;
+  font-size: 16px;
+  font-weight:bold;
+}
+
+.card-footer-home{
+  color: white;
+  background-color:black;
+  text-align: center;
+  padding: 10px;
+}
+
+.home-footer{
+  position: relative;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   height: 300px;
+   background-color:rgb(95, 99, 95);
+   color: white;
+   text-align: center;
+}
